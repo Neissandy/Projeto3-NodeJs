@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Peças</title>
+</head>
+<body>
+    <h1>Cadastro de Peças</h1>
+    <form>
+        <div>
+            <label for="idProdt">ID da peça: </label>
+            <br>
+            <input type="text" name="id" id="idProdt">
+        </div>
+
+        <div>
+            <label for="valorProdt">Valor: </label>
+            <br>
+            <input type="text" name="valor" id="valorProdt">
+        </div>
+
+        <div>
+            <label for="quantProdt">Quantidade: </label>
+            <br>
+            <input type="text" name="quant" id="quantProdt">
+        </div>
+
+        <div>
+            <label for="quantMinProdt">Quantidade mínima de peças: </label>
+            <br>
+            <input type="text" name="quantMin" id="quantMinProdt">
+        </div>
+
+        <div>
+            <label for="quantMaxProdt">Quantidade máxima de peças: </label>
+            <br>
+            <input type="text" name="quantMax" id="quantMaxProdt">
+        </div>
+
+        <div>
+            <input type="submit" value="Cadastrar" onclick="return resposta()">
+        </div>
+    </form>
+    <script src="produto.js"></script>
+</body>
+</html>
